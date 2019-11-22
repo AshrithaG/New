@@ -23,8 +23,8 @@ steps:
 - script: |
     npm install
     npm run build
-    sudo npm install -g @angular/cli
     npx mocha
+    yarn install
   displayName: 'npm install and build'
 
 
